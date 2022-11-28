@@ -158,5 +158,5 @@ if grep "Failures: 1" Result.txt
  is false, because both test failed.
 
 The line that did not run:
-From line 40-55 the line did not run.
+From line 40-54 the line did not run.
 Because the problem of student submission 1 is that the student did not change the code, but there was no compile error, thus it won't go into the else statement on line 41. Also it read the "FAILURES" from Junit do it will execute the line 30-39 and stop there.
