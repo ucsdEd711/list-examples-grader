@@ -53,7 +53,8 @@ else
         fi
     if grep "cannot be converted to StringChecker" Compile.txt
     then
-        echo "Arguments of filter in the wrong order, so it doesn't match the expected behavior, you get 25/100 now, fix it to get full credit."
+        echo "Arguments of filter in the wrong order, so it doesn't match the 
+        expected behavior, you get 25/100 now, fix it to get full credit."
         fi
 
 fi
