@@ -1,5 +1,4 @@
 # Lab Report 5
-
 Grade.sh code:
 ```
 # Create your grading script here
