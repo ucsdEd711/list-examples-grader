@@ -24,7 +24,8 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java &> Compile.txt
 if [ $? -eq 0 ]
 then 
     echo "passed"
-    java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples &> Result.txt
+    java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner 
+    JUnitCore TestListExamples &> Result.txt
 
     if grep "OK" Result.txt
     then 
